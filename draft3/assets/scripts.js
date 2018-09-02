@@ -7888,7 +7888,7 @@ var properties = {
 var event = "App - Browsing - Visit Page";
 trackGrowth(event, properties);
 if ( $window.analytics ) {
-$window.analytics.track("App.Browsing.PageVisited", {
+$window.analytics.track("Browsing.PageVisited", {
 page_name: name || "",
 category_name: category || "",
 title: document.title,
